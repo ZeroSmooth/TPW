@@ -1,0 +1,57 @@
+.text-box {
+    color: #fff;
+    position: absolute;
+    cursor: default;
+    top: 35%;
+    left: 5%;
+}
+.text-box p {
+    font-size: 40px;
+    font-weight: 600;
+    cursor: default;
+}
+.text-box a {
+    cursor: default;
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+    transition: .5s;
+}
+.text-box a:hover {
+    cursor: default;
+    background-color: transparent;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+.text-box h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.scaling1 {
+    z-index: -3;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.scaling1:hover {
+    transform: scale(1.01);
+}
+.neon-text {
+    display: flex;
+    color: #fff;
+    transition: 1s;
+}
+.neon-text:hover {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0ef,
+    0 0 82px #0ef,
+    0 0 92px #0ef,
+    0 0 102px #0ef,
+    0 0 151px #0ef;
+    animation: glow 0.1s ease-in-out infinite alternate;
+}
